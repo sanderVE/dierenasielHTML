@@ -27,19 +27,20 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><b>Kat1</b></td>
-						<td>9</td>
-						<td>1</td>
+						<td><b>Hond1</b></td>
+						<td>5</td>
+						<td>3</td>
 						<td>nee</td>
 					</tr>
 					<tr>
-						<td><b>Kat2</b></td>
-						<td>2</td>
-						<td>2</td>
+						<td><b>Hond2</b></td>
+						<td>7</td>
+						<td>4</td>
 						<td>nee</td>
 					</tr>	
 				</tbody>
 			</table>
+			<h4>Als je honden wil toevoegen vul dan het formulier onder aan de pagina in</h4>
 		</a>
 		<p>		
 		<a name="katten">
@@ -56,21 +57,42 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td><b>Hond1</b></td>
-						<td>5</td>
+						<td><b>Kat1</b></td>
+						<td>9</td>
 						<td>3</td>
 						<td>nee</td>
 					</tr>
 					<tr>
-						<td><b>Hond2</b></td>
-						<td>7</td>
+						<td><b>Kat2</b></td>
+						<td>12</td>
 						<td>4</td>
 						<td>nee</td>
 					</tr>	
 				</tbody>
 			</table>
+			<h4>Als je katten wil toevoegen vul dan het formulier onder aan de pagina in</h4>
 		</a>	
 		<p>
-		Toon <a href="dieren.html">aanwezige dieren</a>
+		
+		<form>
+			<label for="naam">Naam</label>
+			<input type="text" id="naam"/>
+			<br>
+			<label for="leeftijd">Leeftijd</label>
+			<input type="text" id="leeftijd"/>
+			<br>
+			<label for="regnr">Reg. Nr.</label>
+			<input type="text" id="regnr"/>
+			<br>
+			<label for="gereserveerd">Gereserveerd</label>
+			<input type="text" id="gereserveerd"/>
+			<br>
+			<input type="radio" name="dier" value="hond"> 
+			<label for="hond">Hond</label>
+			<input type="radio" name="dier" value="kat">
+			<label for="kat">Kat</label>
+			<br>
+			<input type="submit" value="Toevoegen" />
+		</form>
 	</body>
 </html>
