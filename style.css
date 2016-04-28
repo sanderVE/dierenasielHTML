@@ -1,0 +1,57 @@
+.title
+{
+	text-align: center;	
+}
+body
+{
+	font: Courier New;
+	font-size: 14px;
+}
+a
+{
+	color: #000000;
+}
+a:link
+{
+	color: #339933;
+	text-decoration: none;
+}
+a:link:hover
+{
+	text-decoration: underline;
+}
+a:visited
+{
+	color: #339933;
+}
+table
+{
+	text-align: left;
+}
+li
+{
+	font: Courier New;
+	font-size: 14px;
+}
+label
+{
+	inline-block: 200px;
+	font-weight: bold;
+}
+input
+{
+	font-size: 14px;
+	padding: 3px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.button
+{
+	background-color: #3366cc;
+	color: white;
+	font-weight: bold;
+}
+.button:hover
+{
+	cursor: pointer;
+}
